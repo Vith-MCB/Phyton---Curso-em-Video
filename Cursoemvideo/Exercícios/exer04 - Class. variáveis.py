@@ -1,0 +1,5 @@
+alg = input('Digite algo: ')
+print('Tipo primitivo: ', type(alg))
+print('É alfabético? ', alg.isalpha())
+print('É um número? ', alg.isnumeric())
+print('É alfanumérico? ', alg.isalnum())
