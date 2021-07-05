@@ -1,2 +1,2 @@
 import random
-print(random.randrange(0,100,2))
+print(random.randint(1, 100))
