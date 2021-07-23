@@ -1,10 +1,10 @@
-m = 11
+m = 8
 if m <= 5:
-    sit = ('Reprovado')
+    sit = 'Reprovado'
 else:
-    sit = ('Aprovado')
+    sit = 'Aprovado'
 print('Você está: {}'.format(sit))
-if m in range(6,10):
+if m in range(6,8):
     print('Meus parabéns!')
-elif m > 10:
+elif m > 7:
     print('Que notão!!')
