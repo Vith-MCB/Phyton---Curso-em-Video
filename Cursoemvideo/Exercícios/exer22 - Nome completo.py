@@ -1,0 +1,6 @@
+nome = input('Insira o seu nome: ')
+split = nome.split()
+print(nome.upper())
+print(nome.lower())
+print(len(split[0])+len(split[1]))
+print(split[0])
