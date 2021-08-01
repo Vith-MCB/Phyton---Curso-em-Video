@@ -1,2 +1,5 @@
 nome = input()
-carrosvend = 
+carrosvend = int(input())
+vendas = float(input())
+sal = 500 + (carrosvend * 50) + (vendas * 0.05)
+print('Salário do funcionário {}: {}'.format(nome, sal))
