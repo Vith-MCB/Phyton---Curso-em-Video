@@ -9,6 +9,7 @@ else:
     else:
         print('{}-Feira'.format(lista[num - 1]))
 '''
+
 num = int(input('Informe um número de 1 a 7: '))
 if num > 7 or num <= 0:
     print('Dia da semana inválido!')
