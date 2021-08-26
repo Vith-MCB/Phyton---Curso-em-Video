@@ -9,7 +9,6 @@ for i in range(3, ate):
         serie = n2 - n1
     else:
         serie = n2 + n1
-
     n1 = n2
     n2 = serie
     print(serie, end=', ')
