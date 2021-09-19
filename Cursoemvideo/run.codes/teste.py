@@ -1,9 +1,8 @@
-n = int(input())
-for a in range(0, n):
-    numero = input()
-    mE = int(numero.split()[0])
-    mD = int(numero.split()[1])
-    if mE == mD and mE == 1:
-        print('coma')
-    else:
-        print('pense')
+alf = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
+       'r', 's', 't', 'u', 'v', 'x', 'y', 'w', 'z']
+palavra = input()
+cont = 0
+txt = palavra[::-1]
+for j in range(26):
+    letra = alf[j]
+    cont = palavra.count(letra)
